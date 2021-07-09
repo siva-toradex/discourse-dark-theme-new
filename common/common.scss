@@ -1,0 +1,257 @@
+@import 'variables';
+@import 'fonts';
+
+html, h1, h2, h3, h4, h5, h6, .title {
+  font-family: "Roboto";
+}
+
+.toradex-welcome {
+  display: none;
+}
+
+.alert.alert-info {
+  background-color: $color-alert;
+  border-radius: $radius-4;
+  color: $color-black;
+}
+
+.d-header {
+  box-shadow: none;
+  .d-header-icons {
+    .d-icon {
+      color: $color-white;
+    }
+    .header-dropdown-toggle {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.menu-panel .panel-body-bottom .btn:hover {
+  box-shadow: none;
+}
+
+.nav-pills li a {
+  &.active {
+    border-radius: $radius-2;
+    background: none;
+    color: $color-black;
+  }
+  &:hover {
+    border-radius: $radius-2;
+    background-color: $quaternary;
+    color: $color-white;
+  }
+}
+
+#create-topic {
+  color: $color-white;
+  background: $color-green;
+  border-radius: $radius-4;
+  .fa {
+    color: $color-white;
+  }
+  &:hover {
+    background: $color-green;
+    color: $color-white;
+    border-radius: $radius-4;
+    box-shadow: 0 0 10px -3px $color-green;
+    .fa {
+      color: $color-white;
+    }
+  }
+}
+
+.open .grippie {
+  background: $color-dark-green;
+}
+
+.composer-controls button svg {
+  fill: $color-black;
+  &:hover {
+    fill: $color-white
+  }
+}
+
+.submit-panel .btn-flat svg {
+    fill: $color-black;
+    &:hover {
+    fill: $color-white
+  }
+}
+
+.btn {
+  border-radius: $radius-4;
+  background: $quaternary;
+  color: $color-white;
+  .discourse-no-touch & {
+    &:hover,
+    &.btn-hover {
+      color: $color-white;
+      background: $quaternary;
+      box-shadow: 0 0 10px -3px $quaternary;
+      .d-icon {
+        color: $color-white;
+      }
+    }
+    &.close:hover {
+      box-shadow: none;
+    }
+  }
+  &:hover,
+  &.btn-hover {
+    color: $color-white;
+    background: $quaternary;
+    .d-icon {
+      color: $color-white;
+    }
+  }
+  &:active,
+  &.btn-active {
+    background-image: none;
+    background-color: $quaternary;
+    color: $color-white;
+    .d-icon {
+      color: $color-white;
+    }
+  }
+}
+
+.btn-danger {
+  background: $danger;
+  color: $color-white;
+  .discourse-no-touch & {
+    &:hover,
+    &.btn-hover {
+     background: $danger-hover;
+     color: $color-white;
+    }
+  }
+}
+
+.popup-menu .btn {
+  color: $color-black;
+}
+
+.btn-primary {
+  background: $quaternary;
+  color: $color-white;
+  .d-icon {
+    color: $color-white;
+  }
+}
+
+.btn-flat {
+  background: none;
+  box-shadow: none;
+}
+
+.btn[href] {
+  color: $color-white;
+}
+
+.btn .d-icon{
+  color: $color-white;
+}
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active {
+  border-color: $quaternary;
+  border-radius: $radius-2;
+}
+
+.timeline-container .topic-timeline {
+ .timeline-scrollarea {
+   border-color: $color-green;
+ }
+  .timeline-handle {
+  background-color: $color-green;
+  }
+}
+
+hr {
+  border-top: 1px solid $color-dark-green;
+  opacity: 0.3;
+}
+
+.footer {
+  background-color: $color-gray;
+  padding: 20px 0;
+  text-align: center;
+  color: $color-white;
+  .footer-copyright {
+    font-size: 0.8em;
+  }
+}
+
+// discourse-sidebar-tags
+.full-width #list-area > .contents > .topic-list.with-sidebar > .discourse-sidebar-tags {
+  border-radius: $radius-2;
+  .discourse-tag {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+}
+
+// colors for dark theme
+:root {
+  .navigation-topics .toradex-welcome {
+    color: $color-black;
+  }
+  .menu-panel li {
+    a {
+      &.widget-link {
+        &:hover, &:focus {
+          color: $color-black;
+        }
+      }
+
+      &.categories-link {
+        &:hover, &:focus {
+          color: $color-black;
+        }
+      }
+    }
+
+    &.heading a {
+      &.widget-link {
+        &:hover, &:focus {
+          color: $color-black;
+        }
+      }
+
+      &.categories-link {
+        &:hover, &:focus {
+          color: $color-black;
+        }
+      }
+    }
+  }
+  .alert {
+    color: $color-black;
+  }
+  .alert.alert-success,
+  .alert.alert-error {
+    color: var(--primary);
+  }
+
+  .nav-pills li a {
+    &.active {
+      color: $quaternary;
+      border-bottom: 2px solid $quaternary;
+    }
+
+    &:hover {
+      color: $color-white !important;
+    }
+  }
+  .user-menu .quick-access-panel li a {
+    &:hover {
+      color: $tertiary;
+    }
+    div span:first-child {
+      color: var(--secondary-medium);
+    }
+  }
+}

@@ -1,0 +1,70 @@
+@import 'variables';
+@import 'fonts';
+
+.d-header {
+  height: 100px;
+  .d-header-icons {
+    .d-icon {
+      font-size: 30px;
+    }
+    img.avatar {
+      font-size: 18px;
+    }
+  }
+  #site-logo {
+    height: 60px;
+    width: auto;
+  }
+}
+
+.navigation-topics, .navigation-categories {
+  .toradex-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0 4em 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $color-alert;
+    h1 {
+      font-size: 2.7em;
+      color: $color-black;
+    }
+    p {
+      font-size: 1.2em;
+      text-align: center;
+      width: 52%;
+      color: $color-black;
+    }
+  }
+}
+
+.user-menu .quick-access-panel li:hover {
+  background-color: $tertiary-low
+}
+
+.menu-panel li a.widget-link:hover, .menu-panel li a.widget-link:focus,
+.menu-panel li a.categories-link:hover, .menu-panel li a.categories-link:focus,
+.menu-panel li.heading a.widget-link:hover, .menu-panel li.heading a.widget-link:focus,
+.menu-panel li.heading a.categories-link:hover, .menu-panel li.heading a.categories-link:focus {
+  background-color: $tertiary-low
+}
+
+.admin-controls .nav-pills>li a.active {
+  background: transparent;
+  color: $color-black;
+}
+
+.nav-pills li a.active {
+  border-bottom: 2px solid $quaternary;
+}
+
+.category-list tbody .category {
+  border-left: 3px solid;
+}
+
+.category-list td:first-of-type {
+  padding: 30px;
+}
+

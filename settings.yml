@@ -1,0 +1,12 @@
+custom_banner_header:
+  type: string
+  default: "Welcome to the Toradex Community!"
+  description: Banner header text
+custom_banner_subheader:
+  type: string
+  default: 'Your one stop solution for all the queries related to Toradex Hardware & Software services.<br>In order to keep the quality of this community high, please read first our <a href="https://toradexstaging.trydiscourse.com/docs?topic=13397" target="_blank"><strong>How-To</strong></a>. <br>Also explore our <a href="https://developer.toradex.com/" target="_blank"><strong>Developer Website</strong></a> for technical articles, getting started tutorials, etc.<br>Thanks.'
+  description: Banner sub-header text
+footer_logo:
+  type: upload
+  default: ""
+  description: Footer logo

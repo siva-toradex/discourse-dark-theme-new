@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'fonts';
+
+.select-kit.combo-box .select-kit-header {
+  background-color: $quaternary;
+  color: $color-white;
+}
+
+.category-list-item.category {
+  border-left: 3px solid;
+}
