@@ -1,6 +1,14 @@
 @import 'variables';
 @import 'fonts';
 
+a {
+  color: #96c837;
+}
+
+a:visited {
+  color: #519032;
+}
+
 .d-header {
   height: 100px;
   .d-header-icons {
@@ -26,17 +34,17 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: $color-alert;
+    background-color: $color-grey-2;
     h1 {
       font-size: 2.7em;
-      color: $color-black;
+      color: $color-white;
       text-align: center;
     }
     p {
       font-size: 1.2em;
       text-align: center;
       width: 52%;
-      color: $color-black;
+      color: $color-white;
     }
   }
 }
