@@ -274,3 +274,6 @@ hr {
 .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus {
   background-color: #96c837;
 }
+.discourse-no-touch .d-header-icons .icon:hover .d-icon, .discourse-no-touch .d-header-icons .icon:focus .d-icon {
+  color: #000;
+}
