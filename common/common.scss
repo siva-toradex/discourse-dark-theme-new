@@ -266,7 +266,8 @@ hr {
 .menu-panel li a.widget-link:hover {
   color: #96c837!important;
 }
+.menu-panel .widget-link,
 .menu-panel li a.widget-link,
 .menu-panel li a.widget-link:focus {
-  color: #ddd;
+  color: #ddd!important;
 }
