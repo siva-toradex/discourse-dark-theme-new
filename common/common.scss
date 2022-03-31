@@ -279,3 +279,7 @@ hr {
 .discourse-no-touch .d-header-icons .icon:hover .d-icon, .discourse-no-touch .d-header-icons .icon:focus .d-icon {
   color: #000;
 }
+.alert.alert-info {
+  background-color: var(--primary-low);
+  color: var(--primary);
+}
